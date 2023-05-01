@@ -1,0 +1,14 @@
+[{
+    "title": "Bird's Eye Maple & Purple Heart",
+    "image": "/images/mock-guitar-logo.png",
+    "id": "birds_eye_maple_guitar001",
+    "description": "4 String, Single Pick-Up Electric Bass, Type \"G\"",
+    "price": "2850.00"
+  },
+  {
+    "title": "Alder & Walnut",
+    "image": "/images/mock-guitar-logo.png",
+    "id": "alder_walnut_guitar001",
+    "description": "4 String, Single Pick-Up Electric Bass, Type \"F\"",
+    "price": "2150.00"
+  }]
