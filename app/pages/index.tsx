@@ -1,14 +1,11 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
-
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics, isSupported } from "firebase/analytics";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
-
 import styles from '../styles/Home.module.css';
-
 //Import flat file of products
 import products from '../products.json'
 
@@ -59,7 +56,14 @@ export default function Home() {
               <p>{ product.description }</p>
               <p>${ product.price }</p>
               <p>
-                <button>Add to Cart</button>
+              <button className="snipcart-add-item"
+                data-item-id={product.id}
+                data-item-image={product.image}
+                data-item-name={product.title}
+                data-item-price={product.price}
+                >
+                Add to Cart
+              </button>
               </p>
             </div>
           );
