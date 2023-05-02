@@ -11,4 +11,33 @@
     "id": "alder_walnut_guitar001",
     "description": "4 String, Single Pick-Up Electric Bass, Type \"F\"",
     "price": "2150.00"
-  }]
+  },
+  {
+    "title": "Walnut & Alder",
+    "image": "/images/mock-guitar-logo.png",
+    "id": "walnet_alder_guitar001",
+    "description": "6 String, Single Pick-Up Electric Bass",
+    "price": "2150.00"
+  },
+  {
+    "title": "Alder & Walnut",
+    "image": "/images/mock-guitar-logo.png",
+    "id": "alder_walnut_guitar002",
+    "description": "4 String, Single Pick-Up, Fretless Electric Bass",
+    "price": "2450.00"
+  },
+  {
+    "title": "Cherry & Alder",
+    "image": "/images/mock-guitar-logo.png",
+    "id": "cherry_alder_guitar001",
+    "description": "6 String, Dual Pick-Up, Electric Guitar",
+    "price": "2650.00"
+  },
+  {
+    "title": "Bird's Eye Maple & Purple Heart",
+    "image": "/images/mock-guitar-logo.png",
+    "id": "birds_eye_maple_guitar002",
+    "description": "4 String, Single Pick-Up Electric Bass, Type \"G\"",
+    "price": "2850.00"
+  }
+]
