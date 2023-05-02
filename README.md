@@ -1,2 +1,2 @@
 # Raibley Guitars
-Building Project.....
+Building Project..
