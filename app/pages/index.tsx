@@ -44,9 +44,9 @@ export default function Home() {
       </Head>
 
       {/* Logo */}
-      <div className={styles.logo}>
+      {/*<div className={styles.logo}>
         <Image src="/logo.png" alt="Logo" width={250} height={250} />
-      </div>
+  </div>*/}
 
       {/*Products*/}
       <Container className={styles.homeContainer}>
