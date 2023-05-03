@@ -41,3 +41,10 @@
     flex-direction: column;
   }
 }
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px; /* Optional: add some margin to separate the logo from the products */
+}
