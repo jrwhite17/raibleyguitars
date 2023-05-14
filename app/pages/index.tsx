@@ -44,10 +44,10 @@ export default function Home() {
       </Head>
 
       {/* Logo */}
-      {/*<div className={styles.logo}>
+      <div className="flex flex-col gap-2 items-center justify-center bg-gray-200 text-white h-96 rounded bg-cover bg-center" style={{backgroundImage:`linear-gradient(0deg, rgba(0,0,0,0.25), rgba(0,0,0,0.25))`}}>
         <Image src="/logo.png" alt="Logo" width={250} height={250} />
-  </div>*/}
-
+      </div>
+     
       {/*Products*/}
       <Container className={styles.homeContainer}>
       <div className={styles.grid}>
