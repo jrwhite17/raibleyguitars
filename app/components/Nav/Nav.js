@@ -14,14 +14,12 @@ const Nav = ({ children }) => {
       setTotal(Snipcart.store.getState().cart.total);
     }
   });
-  
+
   return (
     <nav className={styles.nav}>
       <Container className={styles.navContainer}>
         <p className={styles.title}>
-          <Link href="/">
-            Shopping Cart
-          </Link>
+          <Link href="/">Shopping Cart</Link>
         </p>
         <p className={styles.description}>
           <a

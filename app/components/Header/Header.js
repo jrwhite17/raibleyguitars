@@ -1,7 +1,7 @@
-import Container from '../Container';
+import Container from "../Container";
 
-import styles from './Header.module.css';
-import Image from 'next/image';
+import styles from "./Header.module.css";
+import Image from "next/image";
 const Header = ({ children }) => {
   return (
     <header className={styles.header}>
@@ -10,7 +10,7 @@ const Header = ({ children }) => {
         <Image src="/logo.png" alt="Logo" width={250} height={250} />
       </Container>
     </header>
-  )
-}
+  );
+};
 
 export default Header;

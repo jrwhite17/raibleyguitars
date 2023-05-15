@@ -1,19 +1,15 @@
-import { FaShoppingCart } from 'react-icons/fa';
+import { FaShoppingCart } from "react-icons/fa";
 
-import styles from './Container.module.css';
+import styles from "./Container.module.css";
 
 const Container = ({ children, className }) => {
   let containerClassName = styles.container;
 
-  if ( className ) {
+  if (className) {
     containerClassName = `${containerClassName} ${className}`;
   }
 
-  return (
-    <div className={containerClassName}>
-      { children }
-    </div>
-  )
-}
+  return <div className={containerClassName}>{children}</div>;
+};
 
 export default Container;

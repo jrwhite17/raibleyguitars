@@ -1,6 +1,6 @@
-import Container from '../Container';
+import Container from "../Container";
 
-import styles from './Footer.module.css';
+import styles from "./Footer.module.css";
 
 const Footer = ({ children }) => {
   return (
@@ -9,7 +9,7 @@ const Footer = ({ children }) => {
         &copy; White Computing
       </Container>
     </footer>
-  )
-}
+  );
+};
 
 export default Footer;
