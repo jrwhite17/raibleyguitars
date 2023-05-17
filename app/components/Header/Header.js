@@ -7,7 +7,7 @@ const Header = ({ children }) => {
     <header className={styles.header}>
       <Container className={styles.headerContainer}>
         {/* Logo */}
-        <Image src="/logo.png" alt="Logo" width={250} height={250} />
+        <Image src="/logo.png" alt="Logo" width={125} height={125} />
       </Container>
     </header>
   );
