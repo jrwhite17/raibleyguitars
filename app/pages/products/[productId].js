@@ -17,7 +17,7 @@ export default function Product({ product }) {
       <Container>
         <div className={styles.product}>
           <div className={styles.productImage}>
-            <img src={productImage} alt={`Preview of ${product.title}`} />
+            <Image src={productImage} alt={`Preview of ${product.title}`} />
           </div>
           <div className={styles.productDetails}>
             <h1>{product.title}</h1>

@@ -42,7 +42,7 @@ export default function Home() {
             {products.map((product) => (
               <div key={product.id} className={styles.card}>
                 <Link href={`/products/${product.id}`}>
-                  <img
+                  <Image
                     src={product.image}
                     alt={`Preview of ${product.title}`}
                   />
