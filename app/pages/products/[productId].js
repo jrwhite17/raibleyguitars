@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import { FaShoppingCart } from "react-icons/fa";
 import Layout from "../../components/Layout";
 import Container from "../../components/Container";
