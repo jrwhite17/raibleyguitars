@@ -4,8 +4,13 @@
   width: 100%;
   max-width: 40rem;
   margin: 0 auto;
+  margin-top: 2rem; /* Adjust the top margin as desired */
 }
 
 .productImage {
   max-width: 50%;
+}
+
+.productDetails {
+  padding: 1rem; /* Adjust the padding as desired */
 }

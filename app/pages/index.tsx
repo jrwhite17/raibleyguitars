@@ -45,6 +45,7 @@ export default function Home() {
                   <Image
                     src={product.image}
                     alt={`Preview of ${product.title}`}
+                    width={250} height={250}
                   />
                   <h3>{product.title}</h3>
                   <p>{product.description}</p>

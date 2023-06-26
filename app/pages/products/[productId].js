@@ -8,7 +8,7 @@ import products from "../../products.json";
 
 export default function Product({ product }) {
   
-  const productImage = product.image || "/images/mock-guitar-logo.png";
+  //const productImage = product.image || "/images/mock-guitar-logo.png";
 
   return (
     <Layout>
@@ -18,7 +18,7 @@ export default function Product({ product }) {
       <Container>
         <div className={styles.product}>
           <div className={styles.productImage}>
-            <Image src={productImage} alt={`Preview of ${product.title}`} />
+            <Image src={product.image} alt={`Preview of ${product.title}`} width={150} height={150}/>
           </div>
           <div className={styles.productDetails}>
             <h1>{product.title}</h1>

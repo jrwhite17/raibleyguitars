@@ -10,9 +10,7 @@ const Header = ({ children }) => {
       <Container className={styles.headerContainer}>
         {/* Logo */}
         <Link href="/">
-          <a>
-            <Image src="/logo.png" alt="Logo" width={150} height={150} />
-          </a>
+          <Image src="/logo.png" alt="Logo" width={150} height={150} />
         </Link>
       </Container>
     </header>
