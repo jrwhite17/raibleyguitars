@@ -1,10 +1,8 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
-
 import { FaShoppingCart } from "react-icons/fa";
-
 import Container from "../Container";
-
+import AboutUs from "../AboutUs"
 import styles from "./Nav.module.css";
 
 const Nav = ({ children }) => {
@@ -18,8 +16,11 @@ const Nav = ({ children }) => {
   return (
     <nav className={styles.nav}>
       <Container className={styles.navContainer}>
+      <p className={styles.title}>
+          <Link href="/">Home</Link>
+        </p>
         <p className={styles.title}>
-          <Link href="/">Shopping Cart</Link>
+          <Link href="/about">About Us</Link>
         </p>
         <p className={styles.description}>
           <a

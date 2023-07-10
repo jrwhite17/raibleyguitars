@@ -13,7 +13,7 @@ export default function Product({ product }) {
   return (
     <Layout>
       <Head>
-        <title>{product.title} - Snipcart Store</title>
+        <title>Raible Guitars</title>
       </Head>
       <Container>
         <div className={styles.product}>

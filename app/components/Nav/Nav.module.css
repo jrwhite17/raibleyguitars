@@ -1,50 +1,67 @@
 .nav {
-  padding: 1rem 0;
-}
-
-@media (max-width: 600px) {
-  .nav {
-    flex-direction: column;
-    align-items: center;
-  }
+  background-color: #f2f2f2;
+  padding: 20px 0;
 }
 
 .navContainer {
   display: flex;
-  width: 100%;
   justify-content: space-between;
-}
-
-.title {
-  font-weight: bold;
-}
-
-.title a {
-  text-decoration: none;
-}
-
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 2rem;
-}
-
-.title,
-.description {
-  text-align: center;
-}
-
-.description {
-  line-height: 1.5;
-  font-size: 1.5rem;
-  margin: 0;
-}
-
-.description a {
-  display: flex;
   align-items: center;
 }
 
-.description svg {
-  margin-right: 0.4em;
+.title {
+  margin: 0 10px;
+}
+
+.title a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.title a:hover {
+  color: #555;
+}
+
+.description {
+  margin-left: 10px;
+}
+
+.snipcart-checkout {
+  display: flex;
+  align-items: center;
+  color: #333;
+  text-decoration: none;
+}
+
+.snipcart-checkout:hover {
+  color: #555;
+}
+
+.snipcart-checkout .snipcart-total-price {
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.snipcart-checkout .sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+@media (max-width: 768px) {
+  .navContainer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .title {
+    margin-bottom: 10px;
+  }
 }
