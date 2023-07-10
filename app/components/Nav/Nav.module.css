@@ -55,13 +55,3 @@
   border-width: 0;
 }
 
-@media (max-width: 768px) {
-  .navContainer {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .title {
-    margin-bottom: 10px;
-  }
-}
